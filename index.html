@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Discover everyday essentials and statement pieces at Everything Saly. Shop fashion, accessories, lifestyle products and more.">
+  <title>Everything Saly | Quality for Everyday Living</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- =========================================================
+       EDIT ZONE 1: BRAND CONTENT
+       Change the brand name, short description and contact details
+       in script.js under SITE_SETTINGS.
+  ========================================================== -->
+
+  <div class="announcement-bar">
+    <span>Everyday essentials. Elevated style.</span>
+    <span class="announcement-detail">Abuja · Kano · Zaria · Nationwide enquiries</span>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Everything Saly home">
+      <span class="brand-mark">ES</span>
+      <span class="brand-copy">
+        <strong>EVERYTHING SALY</strong>
+        <small>QUALITY FOR EVERYDAY LIVING</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#collections">Collections</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">Our Story</a>
+      <a class="nav-cta" href="#contact">Shop on WhatsApp <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> YOUR EVERYDAY, REFINED</p>
+        <h1>Good taste.<br><em>Everyday essentials.</em></h1>
+        <p class="hero-description">From the finishing touches to the pieces you reach for every day, discover quality lifestyle finds chosen to fit your style and your life.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#shop">Explore the collection <span>↗</span></a>
+          <a class="text-link" href="#gifting">Find something special <span>→</span></a>
+        </div>
+        <div class="hero-proof">
+          <span class="proof-icon">✦</span>
+          <span>Fashion · Accessories · Lifestyle</span>
+        </div>
+      </div>
+
+      <div class="hero-art reveal" aria-label="Featured products">
+        <div class="hero-image-main">
+          <img src="assets/sneakers-01.jpg" alt="Featured sneakers" fetchpriority="high">
+          <div class="image-caption">
+            <span>THE EVERYDAY EDIT</span>
+            <strong>Details make the difference.</strong>
+          </div>
+        </div>
+        <div class="hero-image-small">
+          <img src="assets/van_cleef_braclet_gold.jpg" alt="Gold bracelet detail">
+        </div>
+        <div class="hero-stamp"><span>CURATED</span><strong>FOR YOU</strong><small>ES · EST. WITH CARE</small></div>
+        <div class="hero-orbit"></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Store categories">
+      <div class="ticker-track">
+        <span>STYLE THAT SPEAKS</span><b>✳</b><span>EVERYDAY ESSENTIALS</span><b>✳</b><span>THOUGHTFUL DETAILS</span><b>✳</b><span>STYLE THAT SPEAKS</span><b>✳</b><span>EVERYDAY ESSENTIALS</span><b>✳</b><span>THOUGHTFUL DETAILS</span><b>✳</b>
+      </div>
+    </section>
+
+    <section class="section-wrap collection-section" id="collections">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> FIND YOUR NEXT FAVOURITE</p>
+          <h2>Explore by <em>collection.</em></h2>
+        </div>
+        <p>Useful finds, standout details and easy ways to make your everyday feel a little more considered.</p>
+      </div>
+
+      <div class="collection-grid">
+        <a class="collection-card collection-large reveal" href="#shop" data-filter-link="fashion">
+          <img src="assets/shirts-01.jpg" alt="Fashion and clothing" loading="lazy">
+          <span class="collection-number">01 / WEAR</span>
+          <span class="collection-overlay"><strong>Clothing & Style</strong><small>Polos, shirts, textiles and more <b>↗</b></small></span>
+        </a>
+        <a class="collection-card reveal" href="#shop" data-filter-link="shoes">
+          <img src="assets/open_shoes-01.jpg" alt="Shoes and footwear" loading="lazy">
+          <span class="collection-number">02 / MOVE</span>
+          <span class="collection-overlay"><strong>Footwear</strong><small>Step out with confidence <b>↗</b></small></span>
+        </a>
+        <a class="collection-card reveal" href="#shop" data-filter-link="accessories">
+          <img src="assets/ayatul_kursi_bracelet-01.jpg" alt="Bracelet accessories" loading="lazy">
+          <span class="collection-number">03 / FINISH</span>
+          <span class="collection-overlay"><strong>Accessories</strong><small>The details matter <b>↗</b></small></span>
+        </a>
+        <a class="collection-card reveal" href="#shop" data-filter-link="lifestyle">
+          <img src="assets/stanley_cup-01.jpg" alt="Lifestyle drinkware" loading="lazy">
+          <span class="collection-number">04 / LIVE</span>
+          <span class="collection-overlay"><strong>Lifestyle Finds</strong><small>Made for everyday use <b>↗</b></small></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="section-wrap">
+        <div class="section-heading shop-heading reveal">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> THE STORE EDIT</p>
+            <h2>Good finds, <em>all in one place.</em></h2>
+          </div>
+          <p>See something you like? Open an item to ask for the price, available options and delivery details on WhatsApp.</p>
+        </div>
+
+        <div class="filter-row reveal" role="group" aria-label="Filter products">
+          <button class="filter-button active" data-filter="all">All products</button>
+          <button class="filter-button" data-filter="fashion">Clothing</button>
+          <button class="filter-button" data-filter="shoes">Shoes</button>
+          <button class="filter-button" data-filter="accessories">Accessories</button>
+          <button class="filter-button" data-filter="lifestyle">Lifestyle</button>
+          <button class="filter-button" data-filter="fragrance">Fragrance</button>
+        </div>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+        <div class="shop-bottom"><span>More options may be available.</span><a class="text-link" href="#contact">Ask us on WhatsApp <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="feature-section section-wrap" id="gifting">
+      <div class="feature-panel reveal">
+        <div class="feature-text">
+          <p class="eyebrow"><span class="eyebrow-line"></span> THE THOUGHTFUL TOUCH</p>
+          <h2>A little something<br>that says <em>a lot.</em></h2>
+          <p>Looking for a useful gift or a finishing touch? Tell us what you have in mind and we can help you check the available options.</p>
+          <a class="button button-light" href="#contact" data-wa-message="Hello Everything Saly, I need help finding a product or gift.">Let’s find it <span>↗</span></a>
+        </div>
+        <div class="feature-visual">
+          <div class="feature-visual-frame"><img src="assets/veils-05.jpg" alt="A carefully selected style item" loading="lazy"></div>
+          <span class="feature-note">PICKED WITH PURPOSE <b>✳</b></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap about-section" id="about">
+      <div class="about-symbol reveal">ES<span>✳</span></div>
+      <div class="about-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> THE EVERYTHING SALY STANDARD</p>
+        <h2>More than products.<br><em>Better everyday choices.</em></h2>
+        <p>Everything Saly brings together fashion, accessories and lifestyle essentials in one convenient destination. Our focus is simple: quality finds, approachable service and a smoother way to shop.</p>
+        <div class="values-row">
+          <div><span>01</span><strong>Considered finds</strong><small>Products for real life.</small></div>
+          <div><span>02</span><strong>Easy enquiries</strong><small>Talk to us directly.</small></div>
+          <div><span>03</span><strong>Customer first</strong><small>Help when you need it.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-inner reveal">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> READY WHEN YOU ARE</p>
+          <h2>Your next great find<br>is <em>one message away.</em></h2>
+        </div>
+        <div class="contact-actions">
+          <p>Ask about prices, sizes, colours, availability or delivery.</p>
+          <a class="button button-primary" href="#" id="mainWhatsApp">Chat with Everything Saly <span>↗</span></a>
+          <small>Abuja · Kano · Zaria</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-wrap footer-main">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark">ES</span><span class="brand-copy"><strong>EVERYTHING SALY</strong><small>QUALITY FOR EVERYDAY LIVING</small></span></a>
+      <p>Style, accessories and everyday essentials. All in one place.</p>
+      <a class="footer-top" href="#top">BACK TO TOP ↑</a>
+    </div>
+    <div class="section-wrap footer-bottom"><span>© <span id="year"></span> Everything Saly.</span><span>Made for everyday living.</span></div>
+  </footer>
+
+  <div class="product-modal" id="productModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" aria-label="Close product details" data-close-modal>×</button>
+      <div class="modal-image"><img id="modalImage" src="" alt=""></div>
+      <div class="modal-info">
+        <p class="eyebrow" id="modalCategory">PRODUCT</p>
+        <h2 id="modalTitle">Product name</h2>
+        <p id="modalDescription">Ask us about this product.</p>
+        <p class="modal-price">Price and availability on request</p>
+        <a class="button button-primary" id="modalWhatsApp" href="#" target="_blank" rel="noopener">Ask on WhatsApp <span>↗</span></a>
+      </div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
